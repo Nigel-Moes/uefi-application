@@ -1,0 +1,17 @@
+[Defines]
+  INF_VERSION       = 1.25
+  BASE_NAME         = HelloWorld
+  FILE_GUID         = 66e7519a-ea1f-4e01-8671-fa37fb3bc1c3
+  MODULE_TYPE       = UEFI_APPLICATION
+  VERSION_STRING    = 1.0
+  ENTRY_POINT       = EntryPoint
+
+[Sources]
+  HelloWorld.c
+
+[Packages]
+  MdePkg/MdePkg.dec
+  
+[LibraryClasses]
+  UefiApplicationEntryPoint
+  UefiLib
