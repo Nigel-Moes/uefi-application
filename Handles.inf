@@ -13,8 +13,9 @@
   MdePkg/MdePkg.dec
   
 [LibraryClasses]
-  UefiApplicationEntryPoint
-  UefiLib
-  UefiBootServicesTableLib
   MemoryAllocationLib
+  PrintLib
+  UefiApplicationEntryPoint
+  UefiBootServicesTableLib
+  UefiLib
   
